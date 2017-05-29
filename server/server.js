@@ -6,8 +6,8 @@ var app = express();
 const port = process.env.PORT || 4500;
 
 const baseUrl = 'http://localhost:4000';
-const threeArrowSignalsEndpoint = '/threearrowsignals';
-const gapsSignalsEndpoint = '/gapsignals';
+const threeArrowSignalsEndpoint = '/api/threearrowsignals';
+const gapsSignalsEndpoint = '/api/gapsignals';
 //
 //
 // let symbol = 'aapl';
